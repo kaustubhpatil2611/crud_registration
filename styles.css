@@ -1,0 +1,60 @@
+.row-header{
+	margin:0px auto;
+	padding: 0px auto;
+}
+
+.row-content{
+	margin: 0px auto;
+	padding: 40px 0px 40px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+#vname,#vemail{
+	color:red;
+}
+
+.footer{
+	background-color: #9999ff;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background: #0000ff;
+	color:floralwhite;
+}
+
+address{
+	font-size: 80%;
+	margin:0px;
+	color: #0f0f0f;
+}
+
+body{
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+
+.navbar-dark{
+	background-color: #000099;
+}
+
+img{
+	background-color: white;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+  border: 5px solid #ffffff;
+
+}
+
+th {
+    color: #ffffff;
+    background-color: #0000ff;
+    
+}
+
+button{
+    color:red;
+}

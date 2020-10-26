@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="navbar-brand mr-auto">MIT Academy Of Engineering</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#" id="home"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" id="register"><span class="fa fa-address-card fa-lg"></span> Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" id="show"><span class="fa fa-list fa-lg"></span> Show Registrations</a></li>
+            </ul>
+        </div>
+    </nav>
+        
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h2>Welcome</h2>
+                    <h2>To The Biggest Tech Summit</h2>
+                    <h3>At MIT Academy Of Engineering</h3>
+                    <h2>&lt;<u>TECHNOPHILIA</u>&gt;</h2>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/
+                    images?q=tbn:ANd9GcTeeVH5kyGyHrXOHy_4EWQWiWtZI-pCPd6U77pXcS2JZu9awwg&s" class="img-fluid" style="height: 177.5px;">
+                </div>
+                <div class="col-12 col-sm-3">
+                    <img src="https://content.timesjobs.com/img/65688204/Master.jpg" class="img-fluid" style="height: 177.5px;">
+                </div>
+                <div class="col-12 col-sm">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 id="page">Home</h3>
+                <hr>
+            </div>
+        </div>
+        <div class="row row-content align-items-center" id="one">
+            <div class="col-12 col-sm-5 col-md-6">
+                <div class="card">
+                    <h3 class="card-header bg-primary text-white">Key Points</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-6">Event Name</dt>
+                            <dd class="col-6">Technophilia</dd>
+                            <dt class="col-6">Event Date</dt>
+                            <dd class="col-6">26th Nov. 2020</dd>
+                            <dt class="col-6">Last Registration Date</dt>
+                            <dd class="col-6">20th Nov. 2020</dd>
+                            <dt class="col-6">Key Speakers</dt>
+                            <dd class="col-6">Sundar Pichai,Jeff Bezos<br>Bill Gates,Satya Nadela, Elon Musk</dd>
+                            <dt class="col-6">Timing</dt>
+                            <dd class="col-6">10:00 AM - 3:00 PM</dd>
+                            <dt class="col-6">Location</dt>
+                            <dd class="col-6">MIT Academy Of Engineering</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm col-md">
+                <h2>Hey,Tech Enthusiasts!</h2>
+                <p>We are sure that you won't miss this opportunity and we do know that you too are excited for this event and are eager to get the plethora of knowledge, experience and motivation from the Tech leaders such as <em>Sundar Pichai, Jeff Bezos, Bill Gates, Satya Nadela and Elon Musk.</em></p>
+                <p>This event will be conducted in the MITAOE campus on 26th November, 2020. The event will be of about 5 hours consisting of talks by all these leaders followed by their interaction and Q/A session with all of you.</p>
+                <p><em>So what are you waiting for!</em></p>
+                <p>Be a part of a life-changing and motivating tech summit and for this register as soon as possible as seats are limited!</p>
+            </div>
+        </div>
+
+
+        <div class="row row-content align-items-center " id="two" style="display: none;">
+            <div class="col-12">
+                <h3>Registration Form</h3>
+                <hr>
+            </div>
+            <div class="col-12 col-md-9">
+                <form name="myform">
+                    <div class="form-group row">
+                        <label for="firstname" class="col-form-label col-md-2">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <span class="col-md-10" id="vname"></span>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-form-label col-md-2">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                           <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <span class="col-md-10" id="vemail"></span>
+                    </div>
+                    <div class="form-group row">
+                        <label for="college" class="col-12 col-md-2">College</label>
+                        <div class="col-12 col-md-10">
+                        <label class="radio"><input type="radio" name="college" value="MITAOE" checked="checked">MIT Academy Of Engineering</label><br> 
+                        <label class="radio"><input type="radio" name="college" value="Other">Other</label>
+                       </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="dept" class="col-12 col-md-2">Department</label>
+                        <div class="col-12 col-md-10">
+                        <select class="form-control" id="dept" name="dept">
+                            <option>Chemical</option>
+                            <option>Civil</option>
+                            <option>Computer Science</option>
+                            <option>Electronics</option>
+                            <option>Electronics and Telecommunication</option>
+                            <option>Information Technology</option>
+                            <option>Mechanical</option>
+                            <option>Other</option>
+                        </select>
+                       </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="questions" class="col-md-2 col-form-label">Have any query?</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="questions" name="questions" rows="3" placeholder="Drop your query here"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="approve" id="approve" value="Yes">
+                                <label class="form-check-label" for="approve">Should we send a reminder email?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary" id="demo1" onclick="return validate();">
+                                Click here to Register
+                            </button>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <span class="col-md-10" id="vsubmit" style="color:#00ff00;"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row row-content" id="three" style="display: none;">
+           <div class="col-12 col-sm-9">
+               <h2>Registration List</h2>
+                    <div class="table-responsive">
+                        
+                    <table class="table table-striped" id="myTable" >
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>E-Mail</th>
+                                <th>College</th>
+                                <th>Branch</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="myRows">
+                            
+                            
+                        </tbody>
+                    </table>
+                    <h3 id="none1">No data</h3>
+                </div>
+           </div>        
+        </div>
+        <div class="row row-content align-items-center " id="four" style="display: none;">
+            <div class="col-12">
+                <h3>Update details</h3>
+                <hr>
+            </div>
+            <div class="col-12 col-md-9">
+                <form name="myform2">
+                    <div class="form-group row">
+                        <label for="uid" class="col-form-label col-md-2">ID</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="uid" name="uid" placeholder="" readonly>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <span class="col-md-10" id="vname2"></span>
+                    </div>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-form-label col-md-2">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <span class="col-md-10" id="vname2"></span>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-form-label col-md-2">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                           <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <span class="col-md-10" id="vemail2"></span>
+                    </div>
+                    <div class="form-group row">
+                        <label for="college" class="col-12 col-md-2">College</label>
+                        <div class="col-12 col-md-10">
+                        <label class="radio"><input type="radio" name="college" value="MITAOE" checked="checked">MIT Academy Of Engineering</label><br> 
+                        <label class="radio"><input type="radio" name="college" value="Other">Other</label>
+                       </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="dept" class="col-12 col-md-2">Department</label>
+                        <div class="col-12 col-md-10">
+                        <select class="form-control" id="dept" name="dept">
+                            <option>Chemical</option>
+                            <option>Civil</option>
+                            <option>Computer Science</option>
+                            <option>Electronics</option>
+                            <option>Electronics and Telecommunication</option>
+                            <option>Information Technology</option>
+                            <option>Mechanical</option>
+                            <option>Other</option>
+                        </select>
+                       </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="questions" class="col-md-2 col-form-label">Have any query?</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="questions" name="questions" rows="3" placeholder="Drop your query here"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                            <input type="checkbox" class="form-check-input" name="approve" id="approve" value="Yes">
+                                <label class="form-check-label" for="approve">Should we send a reminder email?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-info" id="demo1" onclick="return validateedit();">
+                                Update
+                            </button>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <span class="col-md-10" id="vsubmit2" style="color:#00ff00;"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" id="home1">Home</a></li>
+                        <li><a href="#" id="register1">Register</a></li>
+                        <li><a href="#" id="show1">Show Registrations</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                      MIT Academy Of Engineering<br>
+                      Alandi, Pune <br>
+                      Pin code:412105<br>
+                      <i class="fa fa-phone"></i>: +857 234 5678<br>
+                      <i class="fa fa-envelope"></i>: <a href="mailto:kkpatil@mitaoe.ac.in">kkpatil@mitaoe.ac.in</a>
+                   </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><span class="fa fa-google-plus"></span></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><span class="fa fa-facebook"></span></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><span class="fa fa-linkedin"></span></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><span class="fa fa-twitter"></span></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><span class="fa fa-youtube"></span></a>
+                        <a class="btn btn-social-icon btn-google" href="mailto:"><span class="fa fa-envelope"></span></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2020 Kaustubh Patil</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="register.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+ysDC!qNI^2m3UFzwwO*I
+OzmZ=\)LCqX4Vbgv
+https://technophiliaregister.000webhostapp.com/index.html#
